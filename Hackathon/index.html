@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Progress Timeline</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Progress Timeline</h1>
+    <p style="margin-top: 0.5rem; font-size: 1.2rem; color: #ffffff;">
+      Created by <strong>Hisha Patel</strong> & <strong>Ramchandra Kadiya</strong>
+    </p>
+  </header>
+  <main>
+    <!-- Progress Timeline Section -->
+    <section id="timeline" class="timeline">
+      <h2>Progress Timeline</h2>
+      <div id="timeline-container"></div>
+    </section>
+
+    <!-- Week Details Section -->
+    <section class="week-progress">
+      <h2>Week Details</h2>
+      <div id="week-details">
+        <p>Click on a week to view details and assignments!</p>
+      </div>
+    </section>
+
+    <!-- Additional Features Section -->
+    <section class="features">
+      <h2>Additional Features</h2>
+      <div id="suggestions"></div>
+      <div id="gamification">
+        <p>Leaderboard: <span id="leaderboard-score">100</span> points</p>
+      </div>
+      <div id="notes">
+        <h3>Study Notes</h3>
+        <textarea id="note-taking" placeholder="Write your quick study notes here..."></textarea>
+        <button id="save-notes">Save Notes</button>
+        <p id="saved-notes"></p>
+      </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot" class="chatbot">
+      <h2>🎓 Study Assistant Chatbot</h2>
+      <p>Click the button below to open the chatbot on a new page.</p>
+      <!-- Button to open chatbot in a new page -->
+      <a href="Chatbot.html" target="_blank">
+        <button id="open-chatbot">Open Chatbot</button>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <button id="generate-report">Generate Weekly Report</button>
+    <p id="report-status"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

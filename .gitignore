@@ -1,0 +1,25 @@
+# Python Virtual Environment
+myenv/
+
+# Environment Variables
+.env
+
+# Database Files
+chat_history.db
+
+# Google API Credentials
+client_secret.json
+
+# VS Code Configuration
+.vscode/
+
+# Bytecode and Cache Files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Other Temporary Files
+*.tmp
